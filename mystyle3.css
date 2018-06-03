@@ -23,7 +23,8 @@ li:hover {font-weight: 600; background: black; text-align: center;}
 #box main{width: 1350px; padding: 170px 0 0 150px;}
 #box main h1{font-family: 'Abril Fatface', cursive;  font-size: 4.0em; letter-spacing: 2px; line-height: 1.0;}
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 350px) and (max-width: 425px){
+
   #menu_box{height: 40px; background: grey;}
 
   header h1{height: 40px; line-height: 40px; font-size: 1.2em; }
@@ -50,14 +51,12 @@ li:hover {font-weight: 600; background: black; text-align: center;}
 	#part1 #text1{width: 78vw;}
 	#part1 #section1{width: 100vw;}
 	#part1 #section2{width: 100vw;}
-	
-
 }
 
 
-footer{width: 100vw; height: 30px; padding: 15px; background: black}
-footer section{width: 97vw; max-width: 1310px;  color: white;}
-footer section article{float: left; width: 240px;}
+footer{width: 100vw; height: 60px;  background: black}
+footer section{width: 95%; padding: 15px; max-width: 1310px; color: white; }
+footer section article{float: left; width: 240px; }
 footer section article img{float: left; width: 30px; padding: 0 10px 0 0;}
 footer section article h4{float: left;  padding: 0 10px 0 0;}
 footer section #sns{float: right; width: 30px; padding: 0 13px 0 0}
